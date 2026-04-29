@@ -1,11 +1,12 @@
 # LaundryMart Website
 
 LaundryMart is a simple laundry service website created using HTML.
-____
+
 This project is designed for users to view laundry services, pricing, and contact details in a clean and attractive layout.
+---
 🚀 Live Demo
 👉 https://debugwithyash.github.io/laundry-mart/
-_____
+---
 
 
 ## Features
