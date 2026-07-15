@@ -8,7 +8,7 @@ https://debugwithyash.github.io/laundry-mart/
 
 ## 📸 Preview
 
-![Laundry Mart Preview](images/laundry%20mart.png)
+![Laundry Mart Preview](images/screenshot.png)
 
 ## ✨ Features
 
