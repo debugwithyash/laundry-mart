@@ -1,68 +1,216 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title> LAUNDRY MART </title>
+         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     </head>
     <body>
-        <h1><b>   Welcome to Laundry Mart     </b></h1>
-        <br>
-        <p>
-        Laundry Mart is a modern and trusted laundry service that makes your daily life easier.
-         We provide high-quality washing, dry cleaning, ironing, and doorstep pickup and delivery services. 
-         Our team ensures that every cloth is handled with proper care and hygiene.
-          We use advanced machines and premium detergents to maintain the freshness and softness of your garments.
-           Customer satisfaction and timely delivery are our top priorities. 
-           Whether it is daily wear, office wear, or special outfits, we treat every item professionally. 
-           Our services are affordable, reliable, and convenient for everyone.
-            At Laundry Mart, we aim to save your time while giving your clothes the best cleaning experience.
-        </p>
-        <img src="./laundry mart.png" height= 500 alt="Laundry Mart Logo">
-        <h2> <b> Our Services </b></h2>
-        <ul>
-            <li>Washing</li>
-            <li>Drying</li>
-            <li>Ironing</li>
-            <li>Folding</li>
-            <li>Dry Cleaning</li>
-            <li>Stain Removal</li>
-            <li>Express Services </li>
-            <li>Special Garment Care</li>
-            <li>More</li>
-        </ul>
-        <h2>Price List</h2>
-        <table border="2">
-            <tr>
-                <th>Service</th>
-                <th>Price</th>
-            </tr>
-            <tr>
-                <td>Washing</td>
-                <td>$5 per kg</td>
-            </tr>
-            <tr>
-                <td>Drying</td>
-                <td>$3 per kg</td>
-            </tr>
-            <tr>
-                <td>Ironing</td>
-                <td>$2 per item</td>
-            </tr>
-            <tr>
-                <td>Folding</td>
-                <td>$1 per item</td>
-            </tr>
-            <tr>
-                <td>Dry Cleaning</td>
-                <td>$10 per item</td>
-            </tr>
-            </table>
-            <h2> Book Now </h2>
-    <form style="display:flex; gap:10px;">
-        <label>Name:</label><br><input type="text" placeholder="Enter your name"><br><br><label>Email:</label><br><input type="email" placeholder="Enter your email"><br><br><label>Phone:</label><br><input type="tel" placeholder="Enter your phone number"><br><br><label>Service:</label><br>
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="images/logo.png">
+                    <h2>Laundry Mart</h2>
+                </div>
+            <ul class="nav-links">
+                 <li><a href="#home">Home</a></li>
+                 <li><a href="#services">Services</a></li>
+                 <li><a href="#pricing">Pricing</a></li>
+                 <li><a href="#contact">Contact</a></li>
+            </ul>
 
-        <button type="submit">Submit</button>
+            <button class="book-btn">Book Now</button>  
+            </nav>
+        </header>
+
+       <section id="home" class="hero">
+
+    <div class="hero-content">
+        <h1>Professional 
+            <span>Laundry</span>
+             Services</h1>
+
+        <p>Fast, Affordable & Doorstep Pickup</p>
+
+        <button class="hero-btn">Book Now</button>
+        <div class="hero-features">
+
+    <div class="feature-item">
+        <i class="fa-solid fa-circle-check"></i>
+        <span>Same Day Service</span>
+    </div>
+
+    <div class="feature-item">
+        <i class="fa-solid fa-truck-fast"></i>
+        <span>Free Pickup</span>
+    </div>
+
+    <div class="feature-item">
+        <i class="fa-solid fa-leaf"></i>
+        <span>Eco-Friendly Wash</span>
+    </div>
+
+</div>
+        </div>
+
+    <div class="hero-image">
+        <img src="images/laundry mart.png" alt="Laundry Mart">
+        
+    </div>
+
+</section>
+       <section id="services" class="services">
+
+    <h2>Our Services</h2>
+
+    <div class="services-grid">
+
+        <div class="service-card">
+            <i class="fa-solid fa-shirt"></i>
+            <h3>Washing</h3>
+            <p>Deep cleaning with premium detergents.</p>
+        </div>
+
+        <div class="service-card">
+            <i class="fa-solid fa-wind"></i>
+            <h3>Dry Cleaning</h3>
+            <p>Professional care for delicate garments.</p>
+        </div>
+
+        <div class="service-card">
+            <i class="fa-solid fa-fire"></i>
+            <h3>Ironing</h3>
+            <p>Crisp ironing for a fresh look.</p>
+        </div>
+
+        <div class="service-card">
+            <i class="fa-solid fa-truck"></i>
+            <h3>Pickup & Delivery</h3>
+            <p>Doorstep pickup and fast delivery.</p>
+        </div>
+
+    </div>
+
+</section>
+       <section id="pricing" class="pricing">
+
+    <h2>Price List</h2>
+
+    <table>
+
+        <tr>
+            <th>Service</th>
+            <th>Price</th>
+        </tr>
+
+        <tr>
+            <td>Washing</td>
+            <td>$5 / kg</td>
+        </tr>
+
+        <tr>
+            <td>Drying</td>
+            <td>$3 / kg</td>
+        </tr>
+
+        <tr>
+            <td>Ironing</td>
+            <td>$2 / item</td>
+        </tr>
+
+        <tr>
+            <td>Folding</td>
+            <td>$1 / item</td>
+        </tr>
+
+        <tr>
+            <td>Dry Cleaning</td>
+            <td>$10 / item</td>
+        </tr>
+
+    </table>
+
+</section>
+         <section id="booking" class="booking">
+
+    <h2>Book Your Laundry Service</h2>
+
+    <form class="booking-form">
+
+        <input type="text" placeholder="Enter Your Name" required>
+
+        <input type="email" placeholder="Enter Your Email" required>
+
+        <input type="tel" placeholder="Enter Your Phone Number" required>
+
+        <select required>
+            <option>Select Service</option>
+            <option>Washing</option>
+            <option>Dry Cleaning</option>
+            <option>Ironing</option>
+            <option>Folding</option>
+            <option>Pickup & Delivery</option>
+        </select>
+
+        <textarea rows="5" placeholder="Additional Instructions"></textarea>
+
+        <button type="submit">Book Now</button>
+
     </form>
-    <h3>CONTACT US AT : info@laundrymart.com </h3>
 
+</section>   
+<footer id="contact" class="footer">
+
+    <h2>Laundry Mart</h2>
+
+    <p>Professional Laundry & Dry Cleaning Services</p>
+
+    <div class="footer-links">
+
+        <a href="#home">Home</a>
+
+        <a href="#services">Services</a>
+
+        <a href="#pricing">Pricing</a>
+
+        <a href="#booking">Booking</a>
+
+    </div>
+
+    <div class="social-icons">
+
+        <i class="fa-brands fa-instagram"></i>
+
+        <i class="fa-brands fa-facebook"></i>
+
+        <i class="fa-brands fa-whatsapp"></i>
+
+    </div>
+
+    <p>
+
+        <i class="fa-solid fa-envelope"></i>
+
+        info@laundrymart.com
+
+    </p>
+
+    <p>
+
+        <i class="fa-solid fa-phone"></i>
+
+        +91 98765 43210
+
+    </p>
+
+    <p>
+
+        © 2026 Laundry Mart. All Rights Reserved.
+
+    </p>
+
+</footer>
             </body> 
 </html>
